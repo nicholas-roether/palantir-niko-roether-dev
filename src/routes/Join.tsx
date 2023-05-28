@@ -1,8 +1,9 @@
 import { JSX, Show } from "solid-js";
-import { useParams } from "@solidjs/router";
+import { useParams, Navigate } from "@solidjs/router";
 import { css } from "@emotion/css";
 import { Card, Heading, Paragraph } from "@nicholas-roether/palantir-ui-solid";
 import { JoinInfo, parseJoinString } from "../join_string";
+import { extensionIsPresent } from "../extension";
 
 interface InvitationProps {
 	joinInfo: JoinInfo;
@@ -44,6 +45,10 @@ const pageWrapper = css`
 `;
 
 function Join(): JSX.Element {
+	if (!extensionIsPresent()) {
+		return <Navigate href="/" />;
+	}
+
 	const params = useParams();
 	const joinInfo = parseJoinString(params.joinString);
 
