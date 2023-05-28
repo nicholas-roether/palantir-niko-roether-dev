@@ -1,0 +1,26 @@
+{
+  "name": "palantir-niko-roether-dev",
+  "license": "gpl-3.0",
+  "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-solid": "^0.12.1",
+    "prettier": "^2.8.8",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "@nicholas-roether/palantir-ui": "^2.2.0",
+    "@nicholas-roether/palantir-ui-solid": "^2.2.3",
+    "solid-js": "^1.7.5"
+  }
+}

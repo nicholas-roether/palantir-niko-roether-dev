@@ -1,0 +1,31 @@
+{
+	"root": true,
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:solid/recommended",
+		"prettier"
+	],
+	"plugins": ["@typescript-eslint", "solid"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"ignorePatterns": ["*.config.js", "dist/*"],
+	"rules": {
+		"@typescript-eslint/explicit-member-accessibility": [
+			"error",
+			{
+				"accessibility": "explicit",
+				"overrides": {
+					"constructors": "no-public"
+				}
+			}
+		],
+		"@typescript-eslint/explicit-function-return-type": [
+			"error",
+			{ "allowExpressions": true }
+		],
+		"@typescript-eslint/prefer-readonly": "warn"
+	}
+}
