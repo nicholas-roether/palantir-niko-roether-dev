@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@emotion/css": "^11.11.0",
-    "@nicholas-roether/palantir-ui": "^2.2.0",
+    "@nicholas-roether/palantir-ui": "^2.2.1",
     "@nicholas-roether/palantir-ui-solid": "^2.2.3",
     "@solidjs/router": "^0.8.2",
     "solid-js": "^1.7.5"

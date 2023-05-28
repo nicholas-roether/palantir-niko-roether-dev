@@ -1,6 +1,7 @@
 function extensionIsPresent(): boolean {
-	console.log(document.documentElement.hasAttribute("data-palantir-extension-installed"));
-	return document.documentElement.hasAttribute("data-palantir-extension-installed");
+	return document.documentElement.hasAttribute(
+		"data-palantir-extension-installed"
+	);
 }
 
 function startPalantirClientSession(
@@ -10,7 +11,13 @@ function startPalantirClientSession(
 ) {
 	window.dispatchEvent(
 		new MessageEvent("message", {
-			data: { __channel: "palantir", username, hostId, accessToken }
+			data: {
+				__channel: "palantir",
+				action: "join",
+				username,
+				hostId,
+				accessToken
+			}
 		})
 	);
 }

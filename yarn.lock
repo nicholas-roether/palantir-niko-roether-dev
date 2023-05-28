@@ -788,10 +788,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nicholas-roether/palantir-ui@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@nicholas-roether/palantir-ui@npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f"
-  checksum: 07311978717fe647239fd60738159e18aaf038c94cae09c9e572d65d807973f69fb8c634b81e2ea7e9d8e0cccaf1f68a8ffcb537c6e3ebf9b468c88e57085bb0
+"@nicholas-roether/palantir-ui@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@nicholas-roether/palantir-ui@npm:2.2.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.1%2F1e95127c751514717e85d7bb7a961acc5d3d90f1"
+  checksum: 9c6c931e778dc66e9d8034df03b2e06e9e934bbe67eaeb237bd624ae361c3a013b13dc00fcacb49dd493d0ba3ed8268cfdecf685d8a603783292d02896cf1b54
   languageName: node
   linkType: hard
 
@@ -3013,7 +3013,7 @@ __metadata:
   resolution: "palantir-niko-roether-dev@workspace:."
   dependencies:
     "@emotion/css": ^11.11.0
-    "@nicholas-roether/palantir-ui": ^2.2.0
+    "@nicholas-roether/palantir-ui": ^2.2.1
     "@nicholas-roether/palantir-ui-solid": ^2.2.3
     "@solidjs/router": ^0.8.2
     eslint: ^8.41.0
