@@ -1,7 +1,7 @@
 import { JSX } from "solid-js";
 import { Routes, Route } from "@solidjs/router";
-import Home from "./Home";
-import Join from "./Join";
+import Home from "./routes/Home";
+import Join from "./routes/Join";
 
 function App(): JSX.Element {
 	return <Routes>
