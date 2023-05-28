@@ -1,8 +1,13 @@
 import { JSX } from "solid-js";
-import { Heading } from "@nicholas-roether/palantir-ui-solid";
+import { Routes, Route } from "@solidjs/router";
+import Home from "./Home";
+import Join from "./Join";
 
 function App(): JSX.Element {
-	return <Heading size="1">Hello World!</Heading>;
+	return <Routes>
+		<Route path="/" component={Home} />
+		<Route path="/join/:joinString" component={Join} />
+	</Routes>;
 }
 
 export default App;
