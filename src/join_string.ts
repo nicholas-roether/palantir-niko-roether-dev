@@ -3,7 +3,7 @@ interface JoinInfo {
 	hostId: string;
 }
 
-const JOIN_STRING_REGEX = /^([^:]+):([A-Za-z0-9+/=]+)$/;
+const JOIN_STRING_REGEX = /^([^:]+):([0-9A-Fa-f\-]+)$/;
 
 function parseClearJoinString(str: string): JoinInfo | null {
 	const result = JOIN_STRING_REGEX.exec(str);
