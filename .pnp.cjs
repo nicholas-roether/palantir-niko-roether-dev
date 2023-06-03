@@ -29,8 +29,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@emotion/css", "npm:11.11.0"],\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.1%2F1e95127c751514717e85d7bb7a961acc5d3d90f1"],\
-            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.2.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.2.3%2F6594a58cb2b8d97129d2224310c73f27422bfd83"],\
+            ["@iconify-json/game-icons", "npm:1.1.2"],\
+            ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"],\
+            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"],\
             ["@solidjs/router", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.8.2"],\
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:8.8.0"],\
@@ -39,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["solid-js", "npm:1.7.5"],\
             ["tslib", "npm:2.5.2"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
+            ["unplugin-icons", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.16.2"],\
             ["vite", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:4.3.9"],\
             ["vite-plugin-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.7.0"]\
           ],\
@@ -52,6 +54,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@ampproject/remapping", "npm:2.2.1"],\
             ["@jridgewell/gen-mapping", "npm:0.3.3"],\
             ["@jridgewell/trace-mapping", "npm:0.3.18"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@antfu/install-pkg", [\
+        ["npm:0.1.1", {\
+          "packageLocation": "./.yarn/cache/@antfu-install-pkg-npm-0.1.1-2770194765-a463af6a0d.zip/node_modules/@antfu/install-pkg/",\
+          "packageDependencies": [\
+            ["@antfu/install-pkg", "npm:0.1.1"],\
+            ["execa", "npm:5.1.1"],\
+            ["find-up", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@antfu/utils", [\
+        ["npm:0.7.4", {\
+          "packageLocation": "./.yarn/cache/@antfu-utils-npm-0.7.4-b18c7ddc3b-f5c1107c9a.zip/node_modules/@antfu/utils/",\
+          "packageDependencies": [\
+            ["@antfu/utils", "npm:0.7.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -969,6 +991,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@iconify-json/game-icons", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@iconify-json-game-icons-npm-1.1.2-dbb0333f7f-da7db7378d.zip/node_modules/@iconify-json/game-icons/",\
+          "packageDependencies": [\
+            ["@iconify-json/game-icons", "npm:1.1.2"],\
+            ["@iconify/types", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@iconify/types", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/@iconify-types-npm-2.0.0-faa2398199-029f58542c.zip/node_modules/@iconify/types/",\
+          "packageDependencies": [\
+            ["@iconify/types", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@iconify/utils", [\
+        ["npm:2.1.5", {\
+          "packageLocation": "./.yarn/cache/@iconify-utils-npm-2.1.5-53b6ac6514-042ec9f026.zip/node_modules/@iconify/utils/",\
+          "packageDependencies": [\
+            ["@iconify/utils", "npm:2.1.5"],\
+            ["@antfu/install-pkg", "npm:0.1.1"],\
+            ["@antfu/utils", "npm:0.7.4"],\
+            ["@iconify/types", "npm:2.0.0"],\
+            ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
+            ["kolorist", "npm:1.8.0"],\
+            ["local-pkg", "npm:0.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@jridgewell/gen-mapping", [\
         ["npm:0.3.3", {\
           "packageLocation": "./.yarn/cache/@jridgewell-gen-mapping-npm-0.3.3-1815eba94c-4a74944bd3.zip/node_modules/@jridgewell/gen-mapping/",\
@@ -1027,29 +1083,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nicholas-roether/palantir-ui", [\
-        ["npm:2.2.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.1%2F1e95127c751514717e85d7bb7a961acc5d3d90f1", {\
-          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-npm-2.2.1-d75be052fc-9c6c931e77.zip/node_modules/@nicholas-roether/palantir-ui/",\
+        ["npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56", {\
+          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-npm-2.3.0-13aca6d052-cc9c566c62.zip/node_modules/@nicholas-roether/palantir-ui/",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.1%2F1e95127c751514717e85d7bb7a961acc5d3d90f1"]\
+            ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nicholas-roether/palantir-ui-solid", [\
-        ["npm:2.2.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.2.3%2F6594a58cb2b8d97129d2224310c73f27422bfd83", {\
-          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-solid-npm-2.2.3-8d9dd3533a-68d9706874.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
+        ["npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1", {\
+          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-solid-npm-2.3.0-1a0be42772-184e5cc8dc.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui-solid", "npm:2.2.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.2.3%2F6594a58cb2b8d97129d2224310c73f27422bfd83"]\
+            ["@nicholas-roether/palantir-ui-solid", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.2.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.2.3%2F6594a58cb2b8d97129d2224310c73f27422bfd83", {\
-          "packageLocation": "./.yarn/__virtual__/@nicholas-roether-palantir-ui-solid-virtual-ff10a29b36/0/cache/@nicholas-roether-palantir-ui-solid-npm-2.2.3-8d9dd3533a-68d9706874.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
+        ["virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1", {\
+          "packageLocation": "./.yarn/__virtual__/@nicholas-roether-palantir-ui-solid-virtual-dfbe9fa63e/0/cache/@nicholas-roether-palantir-ui-solid-npm-2.3.0-1a0be42772-184e5cc8dc.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.2.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.2.3%2F6594a58cb2b8d97129d2224310c73f27422bfd83"],\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.1%2F1e95127c751514717e85d7bb7a961acc5d3d90f1"],\
-            ["@types/nicholas-roether__palantir-ui", null],\
-            ["solid-js", "npm:1.7.5"]\
+            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"],\
+            ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"],\
+            ["@types/nicholas-roether__palantir-ui", null]\
           ],\
           "packagePeers": [\
             "@nicholas-roether/palantir-ui",\
@@ -1417,6 +1472,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["anymatch", [\
+        ["npm:3.1.3", {\
+          "packageLocation": "./.yarn/cache/anymatch-npm-3.1.3-bc81d103b1-3e044fd6d1.zip/node_modules/anymatch/",\
+          "packageDependencies": [\
+            ["anymatch", "npm:3.1.3"],\
+            ["normalize-path", "npm:3.0.0"],\
+            ["picomatch", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["aproba", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/aproba-npm-2.0.0-8716bcfde6-5615cadcfb.zip/node_modules/aproba/",\
@@ -1560,6 +1626,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["binary-extensions", [\
+        ["npm:2.2.0", {\
+          "packageLocation": "./.yarn/cache/binary-extensions-npm-2.2.0-180c33fec7-ccd267956c.zip/node_modules/binary-extensions/",\
+          "packageDependencies": [\
+            ["binary-extensions", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["brace-expansion", [\
         ["npm:1.1.11", {\
           "packageLocation": "./.yarn/cache/brace-expansion-npm-1.1.11-fb95eb05ad-faf34a7bb0.zip/node_modules/brace-expansion/",\
@@ -1675,6 +1750,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.2"],\
             ["ansi-styles", "npm:4.3.0"],\
             ["supports-color", "npm:7.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["chokidar", [\
+        ["npm:3.5.3", {\
+          "packageLocation": "./.yarn/cache/chokidar-npm-3.5.3-c5f9b0a56a-b49fcde401.zip/node_modules/chokidar/",\
+          "packageDependencies": [\
+            ["chokidar", "npm:3.5.3"],\
+            ["anymatch", "npm:3.1.3"],\
+            ["braces", "npm:3.0.2"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
+            ["glob-parent", "npm:5.1.2"],\
+            ["is-binary-path", "npm:2.1.0"],\
+            ["is-glob", "npm:4.0.3"],\
+            ["normalize-path", "npm:3.0.0"],\
+            ["readdirp", "npm:3.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2246,6 +2338,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["execa", [\
+        ["npm:5.1.1", {\
+          "packageLocation": "./.yarn/cache/execa-npm-5.1.1-191347acf5-fba9022c8c.zip/node_modules/execa/",\
+          "packageDependencies": [\
+            ["execa", "npm:5.1.1"],\
+            ["cross-spawn", "npm:7.0.3"],\
+            ["get-stream", "npm:6.0.1"],\
+            ["human-signals", "npm:2.1.0"],\
+            ["is-stream", "npm:2.0.1"],\
+            ["merge-stream", "npm:2.0.0"],\
+            ["npm-run-path", "npm:4.0.1"],\
+            ["onetime", "npm:5.1.2"],\
+            ["signal-exit", "npm:3.0.7"],\
+            ["strip-final-newline", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fast-deep-equal", [\
         ["npm:3.1.3", {\
           "packageLocation": "./.yarn/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-e21a9d8d84.zip/node_modules/fast-deep-equal/",\
@@ -2462,6 +2572,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has", "npm:1.0.3"],\
             ["has-proto", "npm:1.0.1"],\
             ["has-symbols", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["get-stream", [\
+        ["npm:6.0.1", {\
+          "packageLocation": "./.yarn/cache/get-stream-npm-6.0.1-83e51a4642-e04ecece32.zip/node_modules/get-stream/",\
+          "packageDependencies": [\
+            ["get-stream", "npm:6.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2724,6 +2843,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["human-signals", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/human-signals-npm-2.1.0-f75815481d-b87fd89fce.zip/node_modules/human-signals/",\
+          "packageDependencies": [\
+            ["human-signals", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["humanize-ms", [\
         ["npm:1.2.1", {\
           "packageLocation": "./.yarn/cache/humanize-ms-npm-1.2.1-e942bd7329-9c7a74a282.zip/node_modules/humanize-ms/",\
@@ -2872,6 +3000,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["is-binary-path", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/is-binary-path-npm-2.1.0-e61d46f557-84192eb88c.zip/node_modules/is-binary-path/",\
+          "packageDependencies": [\
+            ["is-binary-path", "npm:2.1.0"],\
+            ["binary-extensions", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["is-boolean-object", [\
         ["npm:1.1.2", {\
           "packageLocation": "./.yarn/cache/is-boolean-object-npm-1.1.2-ecbd575e6a-c03b23dbaa.zip/node_modules/is-boolean-object/",\
@@ -3013,6 +3151,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["is-shared-array-buffer", "npm:1.0.2"],\
             ["call-bind", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-stream", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/is-stream-npm-2.0.1-c802db55e7-b8e05ccdf9.zip/node_modules/is-stream/",\
+          "packageDependencies": [\
+            ["is-stream", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3172,6 +3319,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["kolorist", [\
+        ["npm:1.8.0", {\
+          "packageLocation": "./.yarn/cache/kolorist-npm-1.8.0-2cc04dcc05-b056de671a.zip/node_modules/kolorist/",\
+          "packageDependencies": [\
+            ["kolorist", "npm:1.8.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["levn", [\
         ["npm:0.4.1", {\
           "packageLocation": "./.yarn/cache/levn-npm-0.4.1-d183b2d7bb-12c5021c85.zip/node_modules/levn/",\
@@ -3188,6 +3344,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-0c37f9f7fa.zip/node_modules/lines-and-columns/",\
           "packageDependencies": [\
             ["lines-and-columns", "npm:1.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["local-pkg", [\
+        ["npm:0.4.3", {\
+          "packageLocation": "./.yarn/cache/local-pkg-npm-0.4.3-de61dda1fd-7825aca531.zip/node_modules/local-pkg/",\
+          "packageDependencies": [\
+            ["local-pkg", "npm:0.4.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3271,6 +3436,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["merge-stream", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/merge-stream-npm-2.0.0-2ac83efea5-6fa4dcc8d8.zip/node_modules/merge-stream/",\
+          "packageDependencies": [\
+            ["merge-stream", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["merge2", [\
         ["npm:1.4.1", {\
           "packageLocation": "./.yarn/cache/merge2-npm-1.4.1-a2507bd06c-7268db63ed.zip/node_modules/merge2/",\
@@ -3287,6 +3461,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:4.0.5"],\
             ["braces", "npm:3.0.2"],\
             ["picomatch", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mimic-fn", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/mimic-fn-npm-2.1.0-4fbeb3abb4-d2421a3444.zip/node_modules/mimic-fn/",\
+          "packageDependencies": [\
+            ["mimic-fn", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3480,6 +3663,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["normalize-path", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/normalize-path-npm-3.0.0-658ba7d77f-88eeb4da89.zip/node_modules/normalize-path/",\
+          "packageDependencies": [\
+            ["normalize-path", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["npm-run-path", [\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/npm-run-path-npm-4.0.1-7aebd8bab3-5374c0cea4.zip/node_modules/npm-run-path/",\
+          "packageDependencies": [\
+            ["npm-run-path", "npm:4.0.1"],\
+            ["path-key", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["npmlog", [\
         ["npm:6.0.2", {\
           "packageLocation": "./.yarn/cache/npmlog-npm-6.0.2-e0e69455c7-ae238cd264.zip/node_modules/npmlog/",\
@@ -3530,6 +3732,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["once", "npm:1.4.0"],\
             ["wrappy", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["onetime", [\
+        ["npm:5.1.2", {\
+          "packageLocation": "./.yarn/cache/onetime-npm-5.1.2-3ed148fa42-2478859ef8.zip/node_modules/onetime/",\
+          "packageDependencies": [\
+            ["onetime", "npm:5.1.2"],\
+            ["mimic-fn", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3585,8 +3797,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["palantir-niko-roether-dev", "workspace:."],\
             ["@emotion/css", "npm:11.11.0"],\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.1%2F1e95127c751514717e85d7bb7a961acc5d3d90f1"],\
-            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.2.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.2.3%2F6594a58cb2b8d97129d2224310c73f27422bfd83"],\
+            ["@iconify-json/game-icons", "npm:1.1.2"],\
+            ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"],\
+            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"],\
             ["@solidjs/router", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.8.2"],\
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:8.8.0"],\
@@ -3595,6 +3808,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["solid-js", "npm:1.7.5"],\
             ["tslib", "npm:2.5.2"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
+            ["unplugin-icons", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.16.2"],\
             ["vite", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:4.3.9"],\
             ["vite-plugin-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.7.0"]\
           ],\
@@ -3776,6 +3990,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inherits", "npm:2.0.4"],\
             ["string_decoder", "npm:1.3.0"],\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["readdirp", [\
+        ["npm:3.6.0", {\
+          "packageLocation": "./.yarn/cache/readdirp-npm-3.6.0-f950cc74ab-1ced032e6e.zip/node_modules/readdirp/",\
+          "packageDependencies": [\
+            ["readdirp", "npm:3.6.0"],\
+            ["picomatch", "npm:2.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4148,6 +4372,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["strip-final-newline", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/strip-final-newline-npm-2.0.0-340c4f7c66-69412b5e25.zip/node_modules/strip-final-newline/",\
+          "packageDependencies": [\
+            ["strip-final-newline", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["strip-json-comments", [\
         ["npm:3.1.1", {\
           "packageLocation": "./.yarn/cache/strip-json-comments-npm-3.1.1-dcb2324823-492f73e272.zip/node_modules/strip-json-comments/",\
@@ -4358,6 +4591,60 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["unplugin", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/unplugin-npm-1.3.1-f84f876174-511187a927.zip/node_modules/unplugin/",\
+          "packageDependencies": [\
+            ["unplugin", "npm:1.3.1"],\
+            ["acorn", "npm:8.8.2"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["webpack-sources", "npm:3.2.3"],\
+            ["webpack-virtual-modules", "npm:0.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["unplugin-icons", [\
+        ["npm:0.16.2", {\
+          "packageLocation": "./.yarn/cache/unplugin-icons-npm-0.16.2-7d407c9c42-98b7d68188.zip/node_modules/unplugin-icons/",\
+          "packageDependencies": [\
+            ["unplugin-icons", "npm:0.16.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.16.2", {\
+          "packageLocation": "./.yarn/__virtual__/unplugin-icons-virtual-45079c2e6c/0/cache/unplugin-icons-npm-0.16.2-7d407c9c42-98b7d68188.zip/node_modules/unplugin-icons/",\
+          "packageDependencies": [\
+            ["unplugin-icons", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.16.2"],\
+            ["@antfu/install-pkg", "npm:0.1.1"],\
+            ["@antfu/utils", "npm:0.7.4"],\
+            ["@iconify/utils", "npm:2.1.5"],\
+            ["@svgr/core", null],\
+            ["@types/svgr__core", null],\
+            ["@types/vue-template-compiler", null],\
+            ["@types/vue-template-es2015-compiler", null],\
+            ["@types/vue__compiler-sfc", null],\
+            ["@vue/compiler-sfc", null],\
+            ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
+            ["kolorist", "npm:1.8.0"],\
+            ["local-pkg", "npm:0.4.3"],\
+            ["unplugin", "npm:1.3.1"],\
+            ["vue-template-compiler", null],\
+            ["vue-template-es2015-compiler", null]\
+          ],\
+          "packagePeers": [\
+            "@svgr/core",\
+            "@types/svgr__core",\
+            "@types/vue-template-compiler",\
+            "@types/vue-template-es2015-compiler",\
+            "@types/vue__compiler-sfc",\
+            "@vue/compiler-sfc",\
+            "vue-template-compiler",\
+            "vue-template-es2015-compiler"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["update-browserslist-db", [\
         ["npm:1.0.11", {\
           "packageLocation": "./.yarn/cache/update-browserslist-db-npm-1.0.11-2c8e64258f-b98327518f.zip/node_modules/update-browserslist-db/",\
@@ -4505,6 +4792,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/vite",\
             "vite"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["webpack-sources", [\
+        ["npm:3.2.3", {\
+          "packageLocation": "./.yarn/cache/webpack-sources-npm-3.2.3-6bfb5d9563-989e401b9f.zip/node_modules/webpack-sources/",\
+          "packageDependencies": [\
+            ["webpack-sources", "npm:3.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["webpack-virtual-modules", [\
+        ["npm:0.5.0", {\
+          "packageLocation": "./.yarn/cache/webpack-virtual-modules-npm-0.5.0-314fd879d0-22b59257b5.zip/node_modules/webpack-virtual-modules/",\
+          "packageDependencies": [\
+            ["webpack-virtual-modules", "npm:0.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\

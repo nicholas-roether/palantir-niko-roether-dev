@@ -9,19 +9,21 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@iconify-json/game-icons": "^1.1.2",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-solid": "^0.12.1",
     "prettier": "^2.8.8",
     "tslib": "^2.5.2",
     "typescript": "^5.0.4",
+    "unplugin-icons": "^0.16.2",
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
     "@emotion/css": "^11.11.0",
-    "@nicholas-roether/palantir-ui": "^2.2.1",
-    "@nicholas-roether/palantir-ui-solid": "^2.2.3",
+    "@nicholas-roether/palantir-ui": "^2.3.0",
+    "@nicholas-roether/palantir-ui-solid": "^2.3.0",
     "@solidjs/router": "^0.8.2",
     "solid-js": "^1.7.5"
   }

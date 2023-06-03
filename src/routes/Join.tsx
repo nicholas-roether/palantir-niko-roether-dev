@@ -8,8 +8,10 @@ import {
 	TextInput,
 	Button
 } from "@nicholas-roether/palantir-ui-solid";
+import EyeballIcon from "~icons/game-icons/eyeball";
 import { JoinInfo, parseJoinString } from "../join_string";
 import { extensionIsPresent, startPalantirClientSession } from "../extension";
+
 
 interface JoinFormProps {
 	hostId: string;
@@ -55,7 +57,7 @@ function JoinForm({ hostId }: JoinFormProps): JSX.Element {
 				aria-label="Passphrase"
 			/>
 			<Button large smoldering type="submit" class={joinFormSubmit}>
-				Join
+				<EyeballIcon /> Join
 			</Button>
 		</form>
 	);
