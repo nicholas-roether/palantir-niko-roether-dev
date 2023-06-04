@@ -52,6 +52,7 @@ function JoinForm({ hostId }: JoinFormProps): JSX.Element {
 				aria-label="Nickname"
 			/>
 			<TextInput
+				type="password"
 				name="accessToken"
 				placeholder="Passphrase"
 				aria-label="Passphrase"
