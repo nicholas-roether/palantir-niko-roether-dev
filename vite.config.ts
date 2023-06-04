@@ -3,6 +3,7 @@ import solidPlugin from "vite-plugin-solid";
 import iconsPlugin from "unplugin-icons/vite";
 
 export default defineConfig({
+	base: "palantir",
 	plugins: [
 		solidPlugin(),
 		iconsPlugin({
