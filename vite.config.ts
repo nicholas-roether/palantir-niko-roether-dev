@@ -3,7 +3,6 @@ import solidPlugin from "vite-plugin-solid";
 import iconsPlugin from "unplugin-icons/vite";
 
 export default defineConfig({
-	base: "/<REPO>/",
 	plugins: [
 		solidPlugin(),
 		iconsPlugin({
