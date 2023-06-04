@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/css", "npm:11.11.0"],\
             ["@iconify-json/game-icons", "npm:1.1.2"],\
             ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"],\
-            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"],\
+            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.1%2F0a65c3c84f35c2936eb703eadcf6e9a3435faa7d"],\
             ["@solidjs/router", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.8.2"],\
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:8.8.0"],\
@@ -1092,17 +1092,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nicholas-roether/palantir-ui-solid", [\
-        ["npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1", {\
-          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-solid-npm-2.3.0-1a0be42772-184e5cc8dc.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
+        ["npm:2.3.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.1%2F0a65c3c84f35c2936eb703eadcf6e9a3435faa7d", {\
+          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-solid-npm-2.3.1-441b4f2fe8-6113286ce9.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui-solid", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"]\
+            ["@nicholas-roether/palantir-ui-solid", "npm:2.3.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.1%2F0a65c3c84f35c2936eb703eadcf6e9a3435faa7d"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1", {\
-          "packageLocation": "./.yarn/__virtual__/@nicholas-roether-palantir-ui-solid-virtual-dfbe9fa63e/0/cache/@nicholas-roether-palantir-ui-solid-npm-2.3.0-1a0be42772-184e5cc8dc.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
+        ["virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.1%2F0a65c3c84f35c2936eb703eadcf6e9a3435faa7d", {\
+          "packageLocation": "./.yarn/__virtual__/@nicholas-roether-palantir-ui-solid-virtual-48405073a5/0/cache/@nicholas-roether-palantir-ui-solid-npm-2.3.1-441b4f2fe8-6113286ce9.zip/node_modules/@nicholas-roether/palantir-ui-solid/",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"],\
+            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.1%2F0a65c3c84f35c2936eb703eadcf6e9a3435faa7d"],\
             ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"],\
             ["@types/nicholas-roether__palantir-ui", null]\
           ],\
@@ -3799,7 +3799,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/css", "npm:11.11.0"],\
             ["@iconify-json/game-icons", "npm:1.1.2"],\
             ["@nicholas-roether/palantir-ui", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.3.0%2Ffc9b2f9de57b0f391d4c352cb067b7cce311ef56"],\
-            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.0%2F9693fa236b5baf508921a6b1e6a83ddd469a8bd1"],\
+            ["@nicholas-roether/palantir-ui-solid", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:2.3.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui-solid%2F2.3.1%2F0a65c3c84f35c2936eb703eadcf6e9a3435faa7d"],\
             ["@solidjs/router", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:0.8.2"],\
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:b7db42dba5b2fe6c547546f003ae1bbdb19934edcef8dc4d3fa8c0100da2c36d3e130afd1daaec5b96503f1e5d03ca9509a6bb110eb992e3da82097ceadf2919#npm:8.8.0"],\
