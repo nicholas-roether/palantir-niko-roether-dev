@@ -9,6 +9,9 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    environment:
+      name: Netlify
+      url: ${{ steps.deployment.outputs.deploy-url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
